@@ -77,7 +77,7 @@ QuickServe Hub is an advanced service listing platform that connects users with 
 Contributions are welcome! Please fork the repository and submit a pull request for any features, bug fixes, or enhancements.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the BSD 3-Clause License.
 
 ## Contact
 For questions or feedback, reach out to:
