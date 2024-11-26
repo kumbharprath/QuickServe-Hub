@@ -27,40 +27,6 @@ QuickServe Hub is an advanced service listing platform that connects users with 
 
 ---
 
-## API Endpoints
-
-### **Service Providers**
-| HTTP Method | Endpoint                             | Description                          |
-|-------------|-------------------------------------|--------------------------------------|
-| `POST`      | `/service-providers/`               | Create a new service provider        |
-| `GET`       | `/service-providers/`               | Get all service providers            |
-| `GET`       | `/service-providers/{provider_id}/` | Get service provider by ID           |
-| `PUT`       | `/service-providers/{provider_id}/` | Update service provider details      |
-| `DELETE`    | `/service-providers/{provider_id}/` | Delete a service provider            |
-
-### **User Management**
-| HTTP Method | Endpoint         | Description               |
-|-------------|------------------|---------------------------|
-| `POST`      | `/users/register/` | User registration         |
-| `POST`      | `/users/login/`    | User login                |
-| `GET`       | `/users/me/`       | Get user profile          |
-| `PUT`       | `/users/me/`       | Update user profile       |
-
-### **Search and Filters**
-| HTTP Method | Endpoint                         | Description                       |
-|-------------|----------------------------------|-----------------------------------|
-| `GET`       | `/service-providers/search/`     | Search service providers          |
-| `GET`       | `/service-providers/nearby/`     | Location-based search             |
-| `GET`       | `/service-providers/map/`        | Get service providers for the map |
-
-### **Reviews**
-| HTTP Method | Endpoint                                | Description                            |
-|-------------|-----------------------------------------|----------------------------------------|
-| `POST`      | `/service-providers/{provider_id}/reviews/` | Add a review for a service provider    |
-| `GET`       | `/service-providers/{provider_id}/reviews/` | Get reviews for a service provider     |
-
----
-
 ## Installation and Setup
 
 ### Prerequisites
@@ -79,4 +45,42 @@ QuickServe Hub is an advanced service listing platform that connects users with 
    git clone https://github.com/your-username/QuickServe-Hub.git
    cd QuickServe-Hub
 
+2. **Install Backend Dependencies**:
+   ```bash
+   cd backend
+   pip install -r requirements.txt
 
+3. **Run the Backend**:
+   ```bash
+   uvicorn main:app --reload
+
+4. **Install Frontend Dependencies**:
+   ```bash
+   cd ../frontend
+   npm install
+
+5. **Run the Frontend**:
+   ```bash
+   npm start
+
+6. **Access the Application**:
+   - Open your browser and navigate to http://localhost:3000 for the React frontend.
+   - Visit http://127.0.0.1:8000/docs for the FastAPI backend API documentation.
+
+## Future Enhancements
+- **In-App Chat**: Real-time chat between users and providers.
+- **AI Recommendations**: Use machine learning to suggest providers based on user preferences and history.
+- **Subscription Plans**: Premium features for service providers, such as highlighted listings and analytics.
+- **Mobile Application**: Expand platform reach with dedicated iOS and Android apps.
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any features, bug fixes, or enhancements.
+
+## License
+This project is licensed under the MIT License.
+
+## Contact
+For questions or feedback, reach out to:
+- **Name**: Prathmesh Kumbhar
+- **Email**: kumbharprathamesh240@com
+- **GitHub**: kumbharprath
