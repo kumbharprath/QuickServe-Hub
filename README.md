@@ -1,5 +1,3 @@
-# QuickServe-Hub
-
 # QuickServe Hub – Service Listing Platform
 
 QuickServe Hub is an advanced service listing platform that connects users with providers across various categories such as Doctors, Electricians, and Plumbers. It is built with a focus on efficiency, real-time updates, and location-based services to enhance user experience and streamline provider interactions.
